@@ -1,0 +1,27 @@
+@import '@styles/-variables.module.scss';
+@import '@styles/_mixins.module.scss';
+
+.container{
+    background-image: url("https://icdn.24h.com.vn/upload/2-2022/images/2022-04-22/Ford-Ranger-Raptor-2023-duoc-dai-ly-Viet-Nam-nhan-dat-coc-1-1650565322-679-width660height440.jpg");
+    height: 409px;
+    width: calc(100%/2);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.containerTimer{
+    @include flex_box_custom(center, center, 10px);
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.boxBtn{
+    margin-top: 20px;
+    text-align: center;
+    color:black;
+}
