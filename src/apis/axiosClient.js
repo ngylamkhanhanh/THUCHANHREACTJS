@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    baseURL: 'http://localhost:3000/api/v1',
+    baseURL: 'https://thuchanhreactjs-4ovg.vercel.app/api/v1',
     timeout: 1000,
     headers: {
         'Content-Type': 'application/json',
