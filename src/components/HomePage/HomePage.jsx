@@ -9,8 +9,8 @@ import { getProducts } from '@/apis/productService';
 
 function HomePage() {
 
-    useEffect (() => {
-            getProducts();
+    useEffect(() => {
+       getProducts();
     }, []);
     const {container} = styles;
     return ( 
